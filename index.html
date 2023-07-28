@@ -1,20 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- tailwind and daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- icon link -->
+    <script src="https://kit.fontawesome.com/0e55468e49.js" crossorigin="anonymous"></script>
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+
+        :root {
+            background: #ffffff;
+        }
+    </style>
 </head>
-<body>
+
+<body class="font-lato">
     <header>
+        <nav class="bg-[#F85559] mt-12 justify-between ml-60 mr-60 rounded-full">
+            <div class="navbar flex">
+                <div class="flex-1 list-none gap-7 text-white pl-12">
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Shop</li>
+                    <li>All Fruits</li>
+                </div>
+                <div class="flex-1">
+                    <img src="images/logo.png" alt="">
+                    <h1 class="text-4xl font-bold text-white">Fruit Brust</h1>
+                </div>
+
+                <div class=" bg-white rounded-full pr-7 pl-3 inline-flex mr-12">
+                    <div><input type="text" placeholder="Search" class="input bg-white" />
+                    </div>
+                    <div><i class="fa-solid fa-magnifying-glass" style="color: #121212;"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
     </header>
+
     <main>
 
     </main>
+
     <footer>
-        
+
     </footer>
-    
+
 </body>
+
 </html>
